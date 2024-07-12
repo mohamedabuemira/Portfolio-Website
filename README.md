@@ -1,9 +1,9 @@
 <h2 align="center">
-  Rahul Jha | Portfolio Website<br/>
-  <a href="https://www.mohamedabuemiravercel.app/" target="_blank">rahul jha</a>
+ Mohamed Abue Emira | Portfolio Website<br/>
+  <a href="https://mohamedabuemira.vercel.app/" target="_blank">rahul jha</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme_img.png" />
+  <img alt="Demo" src="./Images/readme_img.jpg" />
 </div>
 
 <br/>
