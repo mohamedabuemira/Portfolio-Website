@@ -17,25 +17,24 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
-              <span className="primary-header"> ABOUT </span> ME
+              <span className="primary-header">ABOUT</span> ME
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I'm a <i className="primary-header">
-                ERP Consultant with Experience in Financial Management and ERP Systems Implementation
-              </i>{" "}
-             Experienced ERP Consultant and Product Owner with a robust background in financial management and ERP systems implementation. Skilled in gathering and documenting business requirements, analyzing and optimizing business processes, and providing detailed functional specifications for ERP systems. Proficient in collaborating with development teams, conducting user acceptance testing, training end-users, and offering ongoing support. Demonstrates strong project management abilities, ensuring ERP systems meet organizational needs and deliver exceptional value to stakeholders.
+              I'm a <i className="primary-header">ERP Consultant with Experience in Financial Management and ERP Systems Implementation</i>.
               <br />
-              <br />I am passionate about{" "}
-              <i className="primary-header">modules </i> Accounting, Supply chain management, Inventory and Manufacturing, Sales & CRM , POS, Project, Manufacturing.
               <br />
-               <br />I am passionate about{" "}
-              <i className="primary-header">industries </i> Food, Trade & Logistics, Manufacturing,Construction,Real estate,Logistics.
+              Experienced ERP Consultant and Product Owner with a robust background in financial management and ERP systems implementation. Skilled in gathering and documenting business requirements, analyzing and optimizing business processes, and providing detailed functional specifications for ERP systems. Proficient in collaborating with development teams, conducting user acceptance testing, training end-users, and offering ongoing support. Demonstrates strong project management abilities, ensuring ERP systems meet organizational needs and deliver exceptional value to stakeholders.
               <br />
-              <br />I am passionate about{" "}
-              <i className="primary-header"> </i> Looking for an opportunity to work in a challenging position combining my skills in ERP Consulting, which provides professional development, interesting experiences, and personal growth.
               <br />
-             .
+              I am passionate about <i className="primary-header">modules</i> such as Accounting, Supply chain management, Inventory and Manufacturing, Sales & CRM, POS, Project, and Manufacturing.
+              <br />
+              <br />
+              I am passionate about <i className="primary-header">industries</i> such as Food, Trade & Logistics, Manufacturing, Construction, Real Estate, and Logistics.
+              <br />
+              <br />
+              Looking for an opportunity to work in a challenging position combining my skills in ERP Consulting, which provides professional development, interesting experiences, and personal growth.
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -52,7 +51,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1 data-aos="fade-right">
-              <span className="primary-header">CONNECT </span> WITH ME
+              <span className="primary-header">CONNECT</span> WITH ME
             </h1>
             <p data-aos="fade-left">Feel free to connect with me</p>
             <ul className="home-about-social-links" data-aos="fade-up">
@@ -61,7 +60,7 @@ function Home2() {
                   href="https://github.com/mohamedabuemira"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="github"
                 >
                   <AiFillGithub />
@@ -72,7 +71,7 @@ function Home2() {
                   href="https://twitter.com/MohamedAbuemira"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="twitter"
                 >
                   <AiOutlineTwitter />
@@ -83,7 +82,7 @@ function Home2() {
                   href="mailto:mohamedabuemira@gmail.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="email"
                 >
                   <AiOutlineMail />
@@ -94,11 +93,12 @@ function Home2() {
                   href="https://www.linkedin.com/in/abuemira/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="linkedin"
                 >
                   <FaLinkedinIn />
                 </a>
+              </li>
             </ul>
           </Col>
         </Row>
@@ -106,4 +106,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
