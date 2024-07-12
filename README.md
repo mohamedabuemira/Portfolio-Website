@@ -1,6 +1,6 @@
 <h2 align="center">
  Mohamed Abue Emira | Portfolio Website<br/>
-  <a href="https://mohamedabuemira.vercel.app/" target="_blank">rahul jha</a>
+  <a href="https://mohamedabuemira.vercel.app/" target="_blank">Mohamed Essam Abu Emira</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme_img.jpg" />
@@ -10,7 +10,7 @@
 
 <div align="center">
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rahuljmohamedabuemiraha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/mohamedabuemira/Portfolio-Website?color=red&logo=github&style=for-the-badge) &nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/mohamedabuemira/Portfolio-Website?color=red&logo=github&style=for-the-badge)
 
 </div>
@@ -61,9 +61,9 @@ You will find all the components used and you can edit your information accordin
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/mohamedabuemira/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request A Feature</a>
+    <a href="https://github.com/mohamedabuemira/Portfolio-Website/issues">Request A Feature</a>
 
 </h3>
 
