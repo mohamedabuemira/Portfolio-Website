@@ -7,7 +7,6 @@ import {
   DiLinux,
 } from "react-icons/di";
 import {
-  SiOdoo,
   SiJira,
   SiPowerbi,
   SiMicrosoftsqlserver,
@@ -15,12 +14,13 @@ import {
   SiSalesforce,
   SiSap,
 } from "react-icons/si";
+import OdooIcon from "./OdooIcon"; // Import custom Odoo icon
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOdoo />
+        <OdooIcon /> {/* Custom Odoo icon */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
