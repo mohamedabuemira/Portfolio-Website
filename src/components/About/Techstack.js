@@ -1,52 +1,56 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
+  DiPython,
+  DiPostgresql,
+  DiDocker,
+  DiLinux,
 } from "react-icons/di";
 import {
-  SiFirebase,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
-  SiMui,
+  SiOdoo,
+  SiJira,
+  SiPowerbi,
+  SiMicrosoftsqlserver,
+  SiTableau,
+  SiSalesforce,
+  SiSap,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiOdoo />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiMicrosoftsqlserver />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiPowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiTableau />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiSalesforce />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMui />
+        <SiSap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
       </Col>
     </Row>
   );
