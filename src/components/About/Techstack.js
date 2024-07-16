@@ -1,56 +1,52 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiPython,
-  DiPostgresql,
-  DiDocker,
-  DiLinux,
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiGit,
 } from "react-icons/di";
 import {
-  SiJira,
-  SiPowerbi,
-  SiMicrosoftsqlserver,
-  SiTableau,
-  SiSalesforce,
-  SiSap,
+  SiFirebase,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiRedux,
+  SiMui,
 } from "react-icons/si";
-import OdooIcon from "./OdooIcon"; // Import custom Odoo icon
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <OdooIcon /> {/* Custom Odoo icon */}
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftsqlserver />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
+        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSalesforce />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSap />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiLinux />
+        <SiMui />
       </Col>
     </Row>
   );
